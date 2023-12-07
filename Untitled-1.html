@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang= "ru">
+<head>
+    <meta charset = "UTF -8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="image/x-icon" href="img/logo.ico" rel="shortcut icon">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="app.js" defer=""></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.jpg">
+        </div>
+
+        <h1 class="site-title">Вкусные плюшки у дяди Илюшки</h1>
+
+        <nav>
+            <u1>
+                <li><a href="#section1">О Кондитере</a></li>
+                <li><a href="#section2">Каталог тортов</a></li>
+                <li><a href="#section3">Заказать</a></li>
+            </u1>
+        </nav>
+    </header>
+    <div class="slider-container">
+        <div class="slider">
+            <img src="img/1.jpg" height="100px"
+onclick="openFullscreenImage(this)">
+            <img src="img/2.jpg" height="100px"
+onclick="openFullscreenImage(this)">
+            <img src="img/3.jpg" height="100px"
+onclick="openFullscreenImage(this)">
+            <img src="img/4.jpg" height="100px"
+onclick="openFullscreenImage(this)">
+        </div>
+            <button class="prev-button" aria-label="Посмотреть предыдущий слайд">&lt;</button>
+            <button class="next-button" aria-label="Посмотреть следующий слайд">&gt;</button >
+    </div>
+    <section id="section1">
+        <div class="text_o_nas">
+            <h1> О нас:</h1>
+            <p>Мы команда с большим опытом приготовления десертов, в нашем каталоге вы сможете
+найти много тортов разной сложности приготовления, эклеры, пироги, пончики, изделия из шоколада.
+Также мы готовим торты на заказ и учитываем все пожелания клиента.
+            </p>
+        </div>
+    <data-use-service-core defer></script>
+        <div
+    class="elfsight-app-1c5c3d38-d531-4d2e-bfb6-2fa411e8f53e"></div>
+        </section>
+        <section id="section2">
+            <div class="column-container">
+                
+                <h2> Вот каталог наших кондитерских изделий:</h2>
+                    
+                
+                    <div class="column">
+                    <h3>"Волшебная фантазия"</h3>
+                        <img scr="C:\Users\kmars\OneDrive\Рабочий стол\папка с папками\для лабы HTML\1.jpg" class="pic"
+onclick="openFullscreenImage(this)">
+                        <p>Нежный торт с ванильным кремом и ягодным соусом, пробуждающий волшебство на вашем языке.</p>
+                    </div>
+
+                    <div class="column">
+                    <h3>"Радуга сладостей"</h3>
+                        <img scr="C:\Users\kmars\OneDrive\Рабочий стол\папка с папками\для лабы HTML\2.jpg" class="pic"
+onclick="openFullscreenImage(this)">
+                        <p>Яркий и веселый торт с множеством цветных слоев, наполненных разнообразными вкусами.</p>
+                    </div>
+
+                    <div class="column">
+                    <h3>"Шоколадный гигант"</h3>
+                        <img scr="C:\Users\kmars\OneDrive\Рабочий стол\папка с папками\для лабы HTML\3.jpg" class="pic"
+onclick="openFullscreenImage(this)">
+                        <p> Большой шоколадный торт с разными видами шоколада и начинки</p>
+                    </div>
+
+                    <div class="column">
+                    <h3>"Цветной мир"</h3>
+                        <img scr="C:\Users\kmars\OneDrive\Рабочий стол\папка с папками\для лабы HTML\4.jpg" class="pic"
+onclick="openFullscreenImage(this)">
+                        <p> Магия цветов в совершенном торте с ярким оформлением и разнообразием вкусов.</p>
+                    </div>
+
+                    <div class="column">
+                    <h3>"Дивный десерт"</h3>
+                        <img scr="C:\Users\kmars\OneDrive\Рабочий стол\папка с папками\для лабы HTML\5.jpg" class="pic"
+onclick="openFullscreenImage(this)">
+                        <p>Элегантный и изысканный торт с меренгой, шоколадом и нежным кремом, приносящий незабываемое наслаждение.</p>
+                    </div>
+
+                    <div class="column">
+                    <h3>"Апельсиновая прелесть"</h3>
+                        <img scr="C:\Users\kmars\OneDrive\Рабочий стол\папка с папками\для лабы HTML\6.jpg" class="pic"
+onclick="openFullscreenImage(this)">
+                        <p>Свежий апельсиновый торт, сочетающий в себе кислоту и сладость, для настоящих ценителей цитрусовых.</p>
+                    </div>
+            </div>
+            <div id="fullscreen-countainer" class="hidden">
+                <span class="close-button"
+                onclick="closeFullscreenImage()">&times;</span>
+                <img src="" alt="Полноэкранное изображение" id="fullscreen-image">
+            </div>
+
+            </section>
+            <section id="section3">
+            <form class="obratnuj-zvonok" autocomplete="off" /*action="email.php"*/ method="post">
+                <div class="form-zvonok">
+                    <div>
+                        <label>Имя<span>*</span></label>
+                        <input type="text" name="name" required></div>
+                    <div>
+                        <label>Номер телефона<span>*</span></label>
+                        <input type="text" name="phone" required></div>
+                    <div>
+                        <label>Сообщение</label>
+                        <input type="text" name="message">
+                    </div>
+                    <div>
+                        <label>Введите текст с картинки<span>*</span></label>
+                        <input type="text" name="capcha" required>
+                    </div>
+                    <img src="C:\Users\kmars\OneDrive\Рабочий стол\папка с папками\для лабы HTML\capcha.png" class="pic">
+                    <input class="bot-send-mail" type="submit" value="Послать заявку">
+                </div>
+            </form>
+            </section>
+
+            <button id="scrollToTopButton">Вверх</button>
+</body>
+<footer style ="width: 100%; ">
+    <div class ="social-icons">
+        <a href="https://t.me/telegram" class="social-icon">
+            <img src="C:\Users\kmars\OneDrive\Рабочий стол\папка с папками\для лабы HTML\тг.png">
+        <a href="https://vk.com" class="social-icon">
+            <img src="C:\Users\kmars\OneDrive\Рабочий стол\папка с папками\для лабы HTML\вк.png">
+    </div>
+</footer>
+</html>

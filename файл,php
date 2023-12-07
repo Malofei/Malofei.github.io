@@ -1,0 +1,18 @@
+<?php
+if ($_SERVER["REQUEST_METHOD"]=="POST") {
+    $name = $_POST["name"];
+    $phone = $_POST["phone"];
+    $message = $_POST["message"];
+
+    $to = "kmarsalkin@gmail.com";
+
+    $subject = "Обратная связь от $name";
+    $email_massage = "Имя: $name\n";
+    $email_message .= "Телефон: $phone\n";
+    $email_message .= "Сообщение:\n$message";
+
+     // Отправка письма
+     mail($to, $subject, $email_message);
+}
+
+?>
