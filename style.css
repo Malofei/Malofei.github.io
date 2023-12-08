@@ -139,7 +139,7 @@ body {
 
 /* Стили галереи */
 .column-container {
-  display: flex; /* Размещение элементов в строку */
+  display: inline; /* Размещение элементов в строку */
   justify-content: space-between; /* Распределение пространства между колонками */
   color: #fff;
 }
@@ -158,8 +158,9 @@ body {
   margin: 10px; /* Отступ между колонками */
   padding: 10px; /* Внутренний отступ внутри каждой колонки */
   border: 1px solid #a7401b; /* Граница для каждой колонки */
-  border-radius: 10px;
+  border-radius: 5px;
   background: #333333;
+	width: 100%
 }
 
 /* Стили обратной связи */
