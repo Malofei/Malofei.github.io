@@ -224,7 +224,7 @@ margin-right:auto;
  
 /* Стили контактов */
 footer {
-  background-color: #1e1e1e; /* Цвет фона */
+  background: rgba(0, 0, 0, 0); /* Цвет фона */
   color: #fff; /* Цвет текста */
   padding: 10px 0;
   text-align: center;
