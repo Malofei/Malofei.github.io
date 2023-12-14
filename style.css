@@ -51,14 +51,12 @@ nav a:hover {
 
 body {
   /* Основной цвет фона */
-  div {
-  height: 200px;
-  background: linear-gradient(to right top, red, blue);
-}
   width: 85%; 
   margin-left:auto; 
   margin-right:auto;
-
+.horizontal-gradient {
+  background: linear-gradient(to right, blue, pink);
+}
 
 
 /* Стили для названия сайта */
