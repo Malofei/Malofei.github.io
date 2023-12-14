@@ -1,6 +1,6 @@
 /* Стили для шапки */
 header {
-  background: rgb(138, 43, 226);
+  background: rgb(230,230,250);
   padding: 20px 0;
   display: flex;
   justify-content: space-between;
