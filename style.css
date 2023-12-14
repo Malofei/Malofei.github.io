@@ -55,8 +55,9 @@ body {
   margin-left:auto; 
   margin-right:auto;
 }
-.horizontal-gradient {
-  background: linear-gradient(to right, blue, pink);
+div {
+  height: 200px;
+  background: linear-gradient(45deg, red, blue);
 }
 
 
