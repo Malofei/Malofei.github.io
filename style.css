@@ -51,7 +51,7 @@ nav a:hover {
 
 body {
   /* Основной цвет фона */
-background: rgb(255,211,117);
+background: rgb(100,200,100);
 background: linear-gradient(0deg, rgba(255,211,117,1) 0%, rgba(255,251,207,1) 100%);
 background-attachment:fixed;
 width: 85%;
