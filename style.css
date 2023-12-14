@@ -1,7 +1,6 @@
 /* Стили для шапки */
 header {
-  background-color: #1e1e1e;
-  color: #fff;
+  background: rgb(138, 43, 226);
   padding: 20px 0;
   display: flex;
   justify-content: space-between;
