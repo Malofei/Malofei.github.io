@@ -138,9 +138,10 @@ margin-right:auto;
 
 /* Стили галереи */
 .column-container {
-  display:inline-block; /* Размещение элементов в строку */
-  justify-content: space-between; /* Распределение пространства между колонками */
-  color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: #fff;
 }
 
 
@@ -153,7 +154,6 @@ margin-right:auto;
 
 /* Стили для каждой колонки */
 .column {
-  display:block;
   flex: 1; /* Равномерное распределение ширины между колонками */
   margin: 10px; /* Отступ между колонками */
   padding: 10px; /* Внутренний отступ внутри каждой колонки */
