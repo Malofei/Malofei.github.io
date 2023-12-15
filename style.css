@@ -158,8 +158,8 @@ margin-right:auto;
   padding: 10px; /* Внутренний отступ внутри каждой колонки */
   border: 1px solid #a7401b; /* Граница для каждой колонки */
   border-radius: 5px;
-  background: rgb(128,128,128)
-	width: 100%
+  background: rgb(128,128,128);
+  width: 100%;
 }
 
 /* Стили обратной связи */
