@@ -138,7 +138,7 @@ margin-right:auto;
 
 /* Стили галереи */
 .column-container {
-  display: inline; /* Размещение элементов в строку */
+  display:inline-block; /* Размещение элементов в строку */
   justify-content: space-between; /* Распределение пространства между колонками */
   color: #fff;
 }
