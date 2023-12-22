@@ -30,6 +30,9 @@ function updateSlider() {
       }
     });
   }
+
+updateSlider();
+
 function openFullscreenImage(element) {
     const fullscreenContainer = document.getElementById('fullscreen-container');
     const fullscreenImage = document.getElementById('fullscreen-image');
